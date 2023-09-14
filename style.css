@@ -94,3 +94,15 @@ box-shadow: 1px 1px 4px var(--color-dark4);
     display: flex;
     display:table-cell;
 }
+.conteudo{
+    display:table;
+}
+.imagem1{
+    display:table-cell;
+    float: left;
+}
+.texto1{
+    display:table-cell;
+    float: left;
+}
+
