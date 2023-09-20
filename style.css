@@ -11,19 +11,24 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
+
 }
 body{
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: var(--color-dark1);
-    color: var(--color-white)
-    
+    background-image: linear-gradient(to bottom right,#2d2d2d 0%,#414141 40%, #343434 50%, rgb(39, 39, 39) 60% )
+   
 
 }
+
 img{
-    width: 200px;
+    width: 40px;
     
     
+}
+.ProfilePicture{
+    width: 300px;
 }
 .header,
 .navigation_header{
@@ -49,7 +54,7 @@ img{
         
         color: #03DAC5;
         text-decoration: none;
-        transition: 1s;
+        transition: 2s;
         font-weight: bold;
 
    
@@ -71,41 +76,68 @@ box-shadow: 1px 1px 4px var(--color-dark4);
 .aboutMe{
     justify-content: space-evenly;
 }
-.aboutMe2{
-    font-size: 5px;
-}
-.aspinhas{
-   
-    width: 230px;
-    display:flex;
-    flex-direction: column;
-    justify-content:end;
-    
-}
-.ul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    
-}
-.listaNoticias{
-    list-style: none;
-    width:960px;
-    margin:auto;
-}
-.textoAspas{
-    display: flex;
-    display:table-cell;
-}
-.conteudo{
-    display:table;
-}
-.imagem1{
-    display:table-cell;
-    float: left;
-}
-.texto1{
-    display:table-cell;
-    float: left;
+
+.tituloHome{
+    color:#03DAC5
 }
 
+section{
+    padding: 45px;
+    background-color: #1c1c1c;
+    border-radius: 15px;
+    width:500px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    box-shadow: 2px 15px 20px #1c1c1c;
+    
+}
+
+header img{
+width: 140px;
+
+
+}
+header h3{
+    color:#03DAC5
+    
+    font-size 1.35 rem;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap:25px;
+
+}
+
+main a{
+    background-color:#03DAC5;
+    padding: 15px 0;
+    text-decoration: none;
+    color:#fff;
+    border-radius: 3px;
+    box-shadow: 5px 5px #6ac4bb;
+    transition:all .5s ease-in-out;
+}
+main a hover{
+    opacity: .85;
+
+}
+header h3, p{
+    color: #fff;
+}
+header img{
+border-radius: 90%;
+display: flex;
+width: 200px;
+
+}
+h1{
+    color: #fff;
+}
