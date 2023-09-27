@@ -6,7 +6,8 @@
     --color-dark3: #414141;
     --color-dark4: #1c1c1c;
     --color-dark5: #343434;
-    --color-orange: #03DAC5;
+    --color-orange: #AF69EE;
+  
 
 }
 *{
@@ -182,9 +183,10 @@ margin-bottom: 0.75rem;
 
 .footer-link{
     color: white;
-    width: 800px;
     border-radius: 50%;
-    gap:6px;
+    gap:550px;
+    font-size: 50px;
+    text-decoration: none;
 
 }
 .projeto{
@@ -393,23 +395,65 @@ form button:hover{
 /*BLOG */
 
 .centralizar-Container h2{
-    display: flex;
-    align-items:cell;
-    justify-content: start;
-    flex-direction: column;
+    color:#AF69EE;
+    float: left;
+  
+   
+
     
 }
 .centralizar-Container p{
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    flex-direction: column;
+  line-height: 160%;
+    font-size: medium;
+    margin-bottom: 1em;
+    text-align: left;
+    
 }
 .centralizar-Container img{
     width: 300px;
     display: flex;
     align-items: left;
     justify-content: left;
+    box-shadow: #03DAC5;
     
 
+}
+article{
+    width: 95%;
+}
+article img{
+    width: 60%;
+    float: right;
+    margin: 0 0 2.5em 2em;
+    box-shadow: 0px 5px 15px var(--color-orange);
+
+}
+.fotoIA{
+    float: left;
+    margin-left: 0;
+    margin-right: 2.5rem;
+    width: 55%;
+
+}
+.textright{
+    text-align: right;
+    margin-bottom: 1em;
+}
+.juridica{
+    float: right;
+    margin-left: 2.5rem;
+    margin-right: 0;
+    width: 55%;
+
+}
+.textleft{
+    text-align: right;
+    margin-bottom: 1em;
+}
+
+.fonte{
+    font-size: 35px;
+    margin: 2.5rem;
+
+    color: #fff;
 }
